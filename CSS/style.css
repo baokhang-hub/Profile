@@ -155,6 +155,8 @@ body {
 
 .profile-page p{
     text-align: justify;
+    line-height: 1.5rem;
+    letter-spacing: 1.2px;
 }
 
 .profile-page .btn-box{
@@ -183,6 +185,8 @@ body {
 
 .portfolio-container p{
     text-align: justify;
+    line-height: 1.5rem;
+    letter-spacing: 1.2px;
 }
 
 .portfolio-box .portfolio-carousel {
@@ -328,6 +332,12 @@ body {
   height: 10rem;
 }
 
+.hobby-box p,i{
+    display: inline-flex;
+    gap: 10px;
+    line-height: 1.5rem;
+    letter-spacing: 1.2px;
+}
 /* lớp nền ảnh ẩn */
 .hover-bg {
   position: absolute;
@@ -384,7 +394,8 @@ body {
 }
 
 .skills-content .content span:hover{
-   box-shadow: var(--box-shadow);
+   box-shadow: 0 0 .6rem var(--main-color);
+   
 }
 
 .skills-content .content span i{
@@ -398,6 +409,8 @@ body {
   justify-content: center;
   text-align: center;
   margin-top: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 1.2px;
 }
 
 .project-content img.project-image {
